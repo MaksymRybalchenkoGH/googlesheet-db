@@ -5,14 +5,18 @@ import { AppComponent } from './app.component';
 import { PersonalDataComponent } from './personal-data/personal-data.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms'
+import { AppRoutingModule } from './app-routing.module';
+import { HomePageComponent } from './home-page/home-page.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    PersonalDataComponent
+    PersonalDataComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
