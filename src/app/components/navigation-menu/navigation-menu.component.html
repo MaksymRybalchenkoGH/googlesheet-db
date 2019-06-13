@@ -1,3 +1,5 @@
-<p>
-  navigation-menu works!
-</p>
+<nav class="mg-f-between-middle">
+  <button *ngFor="let el of menuList" class="menu-button">
+    {{el.name}}
+  </button>
+</nav>
