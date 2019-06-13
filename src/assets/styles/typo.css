@@ -1,0 +1,148 @@
+.font-regular {
+  font-family: 'Roboto-Regular', Roboto-Regular, Roboto, 'San Francisco', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.font-bold {
+  font-family: 'Roboto-Bold', Roboto-Bold, 'San Francisco', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+}
+.fs10 {
+  font-size: 10px;
+}
+
+.fs11 {
+  font-size: 11px;
+}
+
+.fs12 {
+  font-size: 12px;
+}
+
+.fs13 {
+  font-size: 13px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.fs15 {
+  font-size: 15px;
+}
+
+.fs16 {
+  font-size: 16px;
+}
+
+.fs17 {
+  font-size: 17px;
+}
+
+.fs18 {
+  font-size: 18px;
+}
+
+.fs19 {
+  font-size: 19px;
+}
+
+.fs20 {
+  font-size: 20px;
+}
+
+.fs21 {
+  font-size: 21px;
+}
+
+.fs22 {
+  font-size: 22px;
+}
+
+.fs23 {
+  font-size: 23px;
+}
+
+.fs24 {
+  font-size: 24px;
+}
+
+.fs26 {
+  font-size: 26px;
+}
+
+.fs28 {
+  font-size: 28px;
+}
+
+.fs30 {
+  font-size: 30px;
+}
+
+.fs32 {
+  font-size: 32px;
+}
+
+.fs34 {
+  font-size: 34px;
+}
+
+.fs36 {
+  font-size: 36px;
+}
+
+.fs38 {
+  font-size: 38px;
+}
+
+.fs40 {
+  font-size: 40px;
+}
+
+.fs42 {
+  font-size: 42px;
+}
+
+.fs44 {
+  font-size: 44px;
+}
+
+.fs46 {
+  font-size: 46px;
+}
+
+.fs48 {
+  font-size: 48px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
