@@ -1,0 +1,25 @@
+.red {
+  background: rgba(216, 56, 40, 0.65);
+  height: 100%;
+  width: 100%;
+}
+.green {
+  background: rgba(21, 216, 83, 0.46);
+  height: 100%;
+  width: 100%;
+}
+.blue {
+  background: rgba(56, 124, 216, 0.52);
+  height: 100%;
+  width: 100%;
+}
+.yellow {
+  background: rgba(216, 182, 32, 0.65);
+  height: 100%;
+  width: 100%;
+}
+.grey {
+  background: rgba(173, 177, 173, 0.75);
+  height: 100%;
+  width: 100%;
+}
