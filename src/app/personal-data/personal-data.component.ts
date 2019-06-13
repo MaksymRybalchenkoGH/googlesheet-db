@@ -20,16 +20,14 @@ export class PersonalDataComponent implements OnInit {
   ngOnInit() {
   }
 
-  public onSubmit(e: Event): void {
-    e.preventDefault()
-
-    const googleScriptKey = '1BdtiFJpwGu1Emutw_W-U3UqLXbNwXxZu63LDWwImgNdwbVpRkuoRWL5A'
+  public onSubmit(formData): void {
     const scriptUrl = 'https://script.google.com/macros/s/AKfycbza5ccExwFnhpmI2to2-5JJxUMhtKmI6QDf3MK3Y7S7HSAzD_ej/exec'
     const url = `${scriptUrl}?callback=ctrlq&name=${this.formName}&email=${this.formEmail}`
-    fetch(url, {mode: 'no-cors'}).then(
+    fetch(url, {mode: 'no-cors'})
+      .then(
       data => console.log('success', data) ,
-      error => console.log('success', error)
-    )
+      error => console.log('error', error)
+      )
 
   }
   private get formName(): string {
