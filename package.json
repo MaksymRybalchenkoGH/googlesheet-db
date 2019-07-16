@@ -1,5 +1,5 @@
 {
-  "name": "form-demo",
+  "name": "mind-games",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:prod": "ng build --prod --output-path docs --base-href /form-demo/"
+    "build:prod": "ng build --prod --output-path docs --base-href /mind-games/"
   },
   "private": true,
   "dependencies": {
