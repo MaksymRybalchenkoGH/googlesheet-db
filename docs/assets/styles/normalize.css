@@ -1,0 +1,104 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+}
+article,
+aside,
+footer,
+header,
+nav,
+section,
+figcaption,
+figure,
+main,
+menu {
+  display: block;
+}
+
+audio,
+video,
+canvas {
+  display: inline-block;
+}
+
+template,
+[hidden] {
+  display: none;
+}
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+label {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+button,
+button:focus,
+input,
+input:focus {
+  outline: none;
+  background: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 0;
+  width: 100%;
+  padding: 0;
+  /*margin: 0;*/
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus input:-webkit-autofill,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: inherit;
+  -webkit-text-fill-color: inherit;
+  -webkit-box-shadow: inherit;
+  transition: background-color 5000s ease-in-out 0s;
+}
