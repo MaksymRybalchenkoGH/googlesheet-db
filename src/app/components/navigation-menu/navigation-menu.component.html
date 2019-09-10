@@ -1,5 +1,5 @@
 <nav class="mg-f-between-middle">
-  <button *ngFor="let el of menuList" class="menu-button fs16">
+  <button *ngFor="let el of menuList" class="menu-button fs16" [routerLink]="['']" [fragment]="el.id">
     {{el.name}}
   </button>
 </nav>
