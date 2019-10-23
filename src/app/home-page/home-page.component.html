@@ -1,21 +1,21 @@
 <main>
-  <app-info-block #red>
+  <app-info-block [id]="MenuIdEnum.red">
     <app-personal-data></app-personal-data>
   </app-info-block>
 
-  <app-info-block>
+  <app-info-block [id]="MenuIdEnum.green">
     <div class="green"></div>
   </app-info-block>
 
-  <app-info-block #blue>
+  <app-info-block [id]="MenuIdEnum.blue">
     <div class="blue"></div>
   </app-info-block>
 
-  <app-info-block #yellow>
+  <app-info-block [id]="MenuIdEnum.yellow">
     <div class="yellow"></div>
   </app-info-block>
 
-  <app-info-block id="grey">
+  <app-info-block [id]="MenuIdEnum.grey">
     <div class="grey"></div>
   </app-info-block>
 </main>
